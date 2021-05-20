@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile.jpeg',
   paragraphOne: "I'm a Student of Mathematics and Computer Science, currently in my final year.",
   paragraphTwo:
     'My passion is game development mostly, but everything that has to do with programming I always get interested in it.',
@@ -29,21 +29,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'unity.jpg',
-    title: 'Space Impact',
-    info:
-      'Developed a game inspired by the original Space Impact. Used Unity engine for development and C#.',
-    info2: 'Project was developed for course of Programming Paradigms.',
-    repo: 'https://github.com/damiapp/SpaceImpact', // if no repo, the button will not show up
+    img: 'Python.jpg',
+    title: 'Major Tactis (Currently in progress)',
+    info: 'First person shooter esports team management simulator.',
+    info2: 'Using Unity and Python for development, with PostgreSQL. Working in a team of two.',
+    url: '',
+    repo: 'https://github.com/damiapp/Major_Tactics', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'unity.jpg',
-    title: 'Chess',
-    info: 'Developed an original chess game. Used Unity engine and C# for development.',
-    info2: 'Project was developed for fun only.',
+    img: 'Python.jpg',
+    title: 'RJukebox',
+    info: 'API for custom built web app.',
+    info2: 'Used Python Flask for development, with MySQL. Worked in a team of three.',
     url: '',
-    repo: 'https://github.com/damiapp/Chess', // if no repo, the button will not show up
+    repo: 'https://github.com/damiapp/Major_Tactics', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -66,12 +66,21 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'Python.jpg',
-    title: 'Major Tactis',
-    info: 'Currently in progress, first person shooter esports team management simulator.',
-    info2: 'Using Unity and Python for development, with PostgreSQL. Working in a team of two.',
+    img: 'unity.jpg',
+    title: 'Space Impact',
+    info:
+      'Developed a game inspired by the original Space Impact. Used Unity engine for development and C#.',
+    info2: 'Project was developed for course of Programming Paradigms in a team of three.',
+    repo: 'https://github.com/damiapp/SpaceImpact', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'unity.jpg',
+    title: 'Chess',
+    info: 'Developed an original chess game. Used Unity engine and C# for development.',
+    info2: 'Project was developed for fun.',
     url: '',
-    repo: 'https://github.com/damiapp/Major_Tactics', // if no repo, the button will not show up
+    repo: 'https://github.com/damiapp/Chess', // if no repo, the button will not show up
   },
 ];
 
