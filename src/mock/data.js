@@ -43,7 +43,7 @@ export const projectsData = [
     info: 'API for custom built web app.',
     info2: 'Used Python Flask for development, with MySQL. Worked in a team of three.',
     url: '',
-    repo: 'https://github.com/damiapp/Major_Tactics', // if no repo, the button will not show up
+    repo: 'https://github.com/MATF-Computer-Networks-Projects/2021_RJukebox', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
