@@ -30,20 +30,20 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Python.jpg',
-    title: 'Major Tactis (Currently in progress)',
-    info: 'First person shooter esports team management simulator.',
-    info2: 'Using Unity and Python for development, with PostgreSQL. Working in a team of two.',
-    url: '',
-    repo: 'https://github.com/damiapp/Major_Tactics', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'Python.jpg',
     title: 'RJukebox',
     info: 'API for custom built web app.',
     info2: 'Used Python Flask for development, with MySQL. Worked in a team of three.',
     url: '',
     repo: 'https://github.com/MATF-Computer-Networks-Projects/2021_RJukebox', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Python.jpg',
+    title: 'Major Tactis',
+    info: 'FPS esports team management simulator.',
+    info2: 'Using Python for development, with PostgreSQL.',
+    url: '',
+    repo: 'https://github.com/damiapp/Major_Tactics', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
