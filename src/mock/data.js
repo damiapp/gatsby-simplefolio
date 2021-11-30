@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'Nikola Damjanović', // e.g: 'Name | Developer'
-  lang: 'srb', // e.g: en, es, fr, jp
+  lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portofilo', // e.g: Welcome to my website
 };
 
